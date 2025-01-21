@@ -1,0 +1,79 @@
+.App {
+    height: 100vh;
+    padding-top: 10px;
+    background-color: #1b1b32;
+    font-family: Lato, sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.freecodecamp-logo-contenedor {
+    width: 100%;
+    height: 50px;
+    margin: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.freecodecamp-logo {
+    height: 40px;
+}
+
+.contenedor-calculadora {
+    width: 400px;
+    height: 600px;
+    padding: 14px;
+    background-color: #99c9ff;
+    border-radius: 20px;
+    border: 5px solid white;
+}
+
+.fila {
+    margin: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Media Queries para tablets y celulares */
+@media (max-width: 768px) {
+    .contenedor-calculadora {
+        width: 80%;
+        height: auto;
+    }
+
+    .boton-contenedor {
+        height: 60px;
+        font-size: 30px;
+    }
+
+    .input {
+        height: 50px;
+        font-size: 24px;
+    }
+}
+
+@media (max-width: 480px) {
+    .contenedor-calculadora {
+        width: 90%;
+        height: auto;
+        padding: 10px;
+    }
+
+    .boton-contenedor {
+        height: 50px;
+        font-size: 20px;
+    }
+
+    .input {
+        height: 40px;
+        font-size: 18px;
+    }
+
+    .freecodecamp-logo {
+        height: 30px;
+    }
+}
